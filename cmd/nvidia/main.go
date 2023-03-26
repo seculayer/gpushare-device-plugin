@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/AliyunContainerService/gpushare-device-plugin/pkg/gpu/nvidia"
-	"github.com/AliyunContainerService/gpushare-device-plugin/pkg/kubelet/client"
+	"github.com/seculayer/gpushare-device-plugin/pkg/gpu/nvidia"
+	"github.com/seculayer/gpushare-device-plugin/pkg/kubelet/client"
 	log "github.com/golang/glog"
 	"k8s.io/client-go/rest"
 )

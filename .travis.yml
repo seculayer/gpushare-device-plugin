@@ -3,7 +3,7 @@ language: go
 go:
   - "1.10"
 
-go_import_path: github.com/AliyunContainerService/gpushare-device-plugin
+go_import_path: github.com/seculayer/gpushare-device-plugin
 
 # let us have speedy Docker-based Travis workers
 sudo: false

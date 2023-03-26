@@ -6,7 +6,7 @@ jobs:
   build:
     docker:
     - image: circleci/golang:1.10
-    working_directory: /go/src/github.com/AliyunContainerService/gpushare-device-plugin
+    working_directory: /go/src/github.com/seculayer/gpushare-device-plugin
     steps:
     - checkout
     - setup_remote_docker:

@@ -2,7 +2,7 @@ package nvidia
 
 import (
 	"fmt"
-	"github.com/AliyunContainerService/gpushare-device-plugin/pkg/kubelet/client"
+	"github.com/seculayer/gpushare-device-plugin/pkg/kubelet/client"
 	"syscall"
 	"os"
 	"time"

@@ -1,6 +1,6 @@
 FROM golang:1.10-stretch as build
 
-WORKDIR /go/src/github.com/AliyunContainerService/gpushare-device-plugin
+WORKDIR /go/src/github.com/seculayer/gpushare-device-plugin
 COPY . .
 
 RUN export CGO_LDFLAGS_ALLOW='-Wl,--unresolved-symbols=ignore-in-object-files' && \

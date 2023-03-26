@@ -12,6 +12,6 @@ spec:
         resources:
             limits:
               # GiB
-              aliyun.com/gpu-mem: 2
+              nvidia.com/gpu-mem: 2
         command: ["sleep","30s"]
       restartPolicy: Never

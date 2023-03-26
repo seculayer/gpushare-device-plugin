@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/AliyunContainerService/gpushare-device-plugin/pkg/kubelet/client"
+	"github.com/seculayer/gpushare-device-plugin/pkg/kubelet/client"
 	"io/ioutil"
 	"k8s.io/client-go/rest"
 	"time"
