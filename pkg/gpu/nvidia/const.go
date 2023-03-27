@@ -8,9 +8,9 @@ import (
 type MemoryUnit string
 
 const (
-	resourceName  = "nvidia.com/gpu-mem"
-	resourceCount = "nvidia.com/gpu-count"
-	serverSock    = pluginapi.DevicePluginPath + "aliyungpushare.sock"
+	resourceName  = "seculayer.com/gpu-mem"
+	resourceCount = "seculayer.com/gpu-count"
+	serverSock    = pluginapi.DevicePluginPath + "nvidiagpushare.sock"
 
 	OptimisticLockErrorMsg = "the object has been modified; please apply your changes to the latest version and try again"
 
